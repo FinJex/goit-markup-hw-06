@@ -106,7 +106,12 @@
 
      <ul class="our-team-block">
        <li class="our-team-list">
-            <img src="./images/mark-guerrero.jpg" alt="Mark Guerrero" width="264" class="our-team-img">
+        <picture>
+          <source media="(min-width: 1158px)" srcset="./images/mark-guerrero.jpg 1x, ./images/mark-guerrero.jpg 2x">
+          <source media="(min-width: 768px)" srcset="./images/mark-guerrero-tablet.jpg 1x, ./images/mark-guerrero-tablet.jpg 2x">
+           <source media="(man-width: 767px)" srcset="./images/mark-guerrero-mobile.jpg 1x, ./images/mark-guerrero-mobile.jpg 2x">
+          <img src="./images/mark-guerrero.jpg" alt="Mark Guerrero" width="264" class="our-team-img">
+            </picture>
             <div class="papa-container">
            <h3 class="our-team">Mark Guerrero</h3>
            <p class="our-team-description">Product Designer</p>
@@ -151,7 +156,12 @@
          </div>
        </li>
        <li class="our-team-list">
+        <picture>
+          <source media="(min-width: 1158px)" srcset="./images/tom-ford.jpg 1x, ./images/tom-ford.jpg 2x">
+          <source media="(min-width: 768px)" srcset="./images/tom-ford-tablet.jpg 1x, ./images/tom-ford-tablet.jpg 2x">
+           <source media="(man-width: 767px)" srcset="./images/tom-ford-mobile.jpg 1x, ./images/tom-ford-mobile.jpg 2x">
             <img src="./images/tom-ford.jpg" alt="Tom Ford" width="264" class="our-team-img">
+            </picture>
            <div class="papa-container">
            <h3 class="our-team">Tom Ford</h3>
            <p class="our-team-description">Frontend Developer</p>
@@ -192,7 +202,12 @@
          </div>
        </li>
         <li class="our-team-list">
+                  <picture>
+          <source media="(min-width: 1158px)" srcset="./images/camila-garcia.jpg 1x, ./images/camila-garcia.jpg 2x">
+          <source media="(min-width: 768px)" srcset="./images/camila-garcia-tablet.jpg 1x, ./images/camila-garcia-tablet.jpg 2x">
+           <source media="(man-width: 767px)" srcset="./images/camila-garcia-mobile.jpg 1x, ./images/camila-garcia-mobile.jpg 2x">
            <img src="./images/camila-garcia.jpg" alt="Camila Garcia" width="264" class="our-team-img">
+           </picture>
            <div class="papa-container">
            <h3 class="our-team">Camila Garcia</h3>
            <p class="our-team-description">Marketing</p>
@@ -233,7 +248,12 @@
          </div>
        </li>
        <li class="our-team-list">
+         <picture>
+          <source media="(min-width: 1158px)" srcset="./images/daniel-wilson.jpg 1x, ./images/daniel-wilson.jpg 2x">
+          <source media="(min-width: 768px)" srcset="./images/daniel-wilson-tablet.jpg 1x, ./images/daniel-wilson-tablet.jpg 2x">
+           <source media="(man-width: 767px)" srcset="./images/daniel-wilson-mobile.jpg 1x, ./images/daniel-wilson-mobile.jpg 2x">
             <img src="./images/daniel-wilson.jpg" alt="Daniel Wilson" width="264" class="our-team-img">
+            </picture>
            <div class="papa-container">
            <h3 class="our-team">Daniel Wilson</h3>
            <p class="our-team-description">UI Designer</p>
@@ -428,7 +448,7 @@
 </footer>
 
 <!-- #region backdrop -->
-<div class="backdrop is-open"> 
+<div class="backdrop is-ope1"> 
   <div class="modal">
 <button class="close-popup" type="button"> 
 <svg class="icon-close-black" width="8" height="8">
