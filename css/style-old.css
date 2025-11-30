@@ -41,14 +41,10 @@ img {
     align-items: center;
 }
 
-.header {
-    display: flex;
-     align-items: center;
-}
+
 
 .header-logo {
-    padding: 24px 0;
-    margin-right: 76px;
+     margin-right: 76px;
 }
 
 .logo {
@@ -60,56 +56,7 @@ img {
     color: #4d5ae5;
     letter-spacing: 0.03em;
 }
-
-span {
-    color: #2e2f42;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-}
-
-.head-text {
-    color: #2E2F42;
-    font-weight: 500;
- font-size: 16px;
-    letter-spacing: 0.02em;
-    display: flex;
-    align-items: center;
-  gap: 40px;
-}
-.studio {
-   position: relative;
-   padding: 24px 0;
-   display: block;
-   color: #404bbf;
-   transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1)
-}
-
-.studio::after {
-    content: "";
-    border-radius: 2px;
-    width: 48px;
-    height: 4px;
-    background-color: #404BBF;
-    display: flex;
-    position: absolute;
-    bottom: -1px;
-
-}
-
-
-.a-studio {
-    display: block;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    padding: 24px 0;
-    color: #404bbf;
-}
-
-a:hover, a:focus {
-    color: #404bbf;
-}
+ 
 
 .address {
     margin-left: auto;
@@ -175,8 +122,7 @@ a:hover, a:focus {
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
     color: #FFFFFF;
-  font-family: "Roboto", sans-serif;
-    cursor: pointer;
+    font-family: "Roboto", sans-serif;
     padding: 16px 32px;
     border-radius: 4px;
     border: none;
@@ -235,8 +181,7 @@ button:hover, button:focus {
 .section-info {
     display: flex;
     align-items: center;
-gap: 24px;
-
+    gap: 24px;
 }
 
 .li-info-section {
@@ -344,11 +289,7 @@ font-weight: 400;
      display: flex;
      justify-content: center;
      gap: 24px;
-
-     
-  
-   
-}
+ }
 .icon-link {
     display: block;
     justify-content: center;
@@ -527,11 +468,7 @@ transform: translateY(0%);
     left: 540px;
     top: 140px;
     gap: 16px;
-    
-   
-    
-   
-    
+
  }
  .icon-description-footer {
     font-family: var(--font-family);
@@ -549,10 +486,7 @@ margin-bottom: 16px;
 
 .icon-footer {
   fill: #F4F4FD;
-     
-  
-   
-}
+} 
 .icon-link-footer {
     display: block;
     justify-content: center;
