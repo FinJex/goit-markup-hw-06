@@ -102,7 +102,7 @@ span {
 .head-text {
     color: #2E2F42;
     font-weight: 500;
- font-size: 16px;
+    font-size: 12px;
     letter-spacing: 0.02em;
     display: flex;
     align-items: center;
@@ -162,6 +162,9 @@ a:hover, a:focus {
 }
 }
 @media screen and (min-width:1158px) {
+    .head-text {
+        font-size: 16px;
+    }
     .header-logo {
     margin-right: 76px;
 }
@@ -173,6 +176,7 @@ a:hover, a:focus {
 
 }
 /* mobile menu */
+
 .mobile-menu {
     z-index: 999999;
     position: fixed;
@@ -251,7 +255,8 @@ letter-spacing: 0.02em;
      display: block;
      color: #434455;
      font-style: normal;
-     
+
+     margin-bottom: 24px;
 }
 .emeil-tel {
     color: #4D5AE5;
@@ -267,6 +272,7 @@ letter-spacing: 0.02em;
     gap: 40px;
 
 }
+
 .icon-link-footer {
     display: block;
     justify-content: center;
@@ -282,10 +288,14 @@ letter-spacing: 0.02em;
 .mobile-menu {
     display: none;
 }
+.emeil {
+    margin-bottom: 0px;
+}
 }
 @media screen and (min-width:1158px) {
 .emeil {
     font-size: 16px;
+   
 }
 }
 /* section1 */
@@ -913,7 +923,9 @@ margin-bottom: 16px;
     height: 20px;
  }
 @media screen and (min-width:768px) {
-
+ .footer {
+    padding-left: 156px;
+ }
     .form-subscripe {
     flex-direction: row;
 }
@@ -941,6 +953,9 @@ margin-bottom: 16px;
 }
 }
 @media screen and (min-width:1158px) {
+.footer {
+    padding: 96px 0;
+}
 .container {
     max-width: 1158px;
     padding: 0 15px;
@@ -1139,14 +1154,7 @@ color: rgba(46, 47, 66, 0.4);
 .comment-textarea:focus {
 border-color: rgba(46, 47, 66, 0.4);
 }
-.policy-label {
-    font-family: var(--font-family);
-font-weight: 400;
-font-size: 12px;
-line-height: 1.17;
-letter-spacing: 0.04em;
-color: #8E8F99;
-}
+
 .privacy-policy {
 color: #4D5AE5;
 text-decoration: underline;
@@ -1162,13 +1170,25 @@ text-decoration: underline;
 }
 
 .policy-label {
+        font-family: var(--font-family);
+font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
+
+
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+.policy-text {
+    display: inline-block;
+    line-height: 1.17;
 }
 
 .check-empty {
+    flex-shrink: 0; 
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -1179,9 +1199,12 @@ text-decoration: underline;
     fill: transparent;
      cursor: pointer;
     margin-right: 8px;
+    margin-top: 0; 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
+
+
 @media screen and (min-width:768px) {
     .modal {
     width: 408px;
