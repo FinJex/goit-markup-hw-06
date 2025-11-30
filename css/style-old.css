@@ -481,8 +481,7 @@ left: 540px;
 top: 100px;
 line-height: 1.5;
 margin-bottom: 16px; 
-
- }
+  }
 
 .icon-footer {
   fill: #F4F4FD;
@@ -592,9 +591,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-left: 16px;
     width: 24px;
     height: 20px;
- 
-
-}
+ }
 /* #endregion footer */
 
 /* #region backdrop */
